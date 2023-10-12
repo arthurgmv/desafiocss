@@ -1,0 +1,121 @@
+/* Estilização do header */
+.banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/woman-code.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 268px;
+    height: 268px;
+}
+
+h1 {
+    color: rgba(51, 168, 219, 1);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    margin-top: 20px;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgba(51, 168, 219, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* Estilização do conteúdo centralizado no main */
+main {
+    background: rgba(0, 0, 0, 1); /* Fundo escuro */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilização da seção "O que vou aprender?" */
+#course-content {
+    padding: 40px 0;
+}
+
+#course-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: left;
+    background: rgba(51, 168, 219, 1);
+}
+
+#course-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 659px; /* Largura máxima do parágrafo */
+    margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+}
+
+/* Estilização da imagem fixa */
+#transform-world {
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilização do footer */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização da imagem do logo no footer */
+.dio-logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* Estilização dos links e parágrafos no footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 10px;
+}
+
+#loginho {
+    width: 83px;
+    height: 38px;
+}
